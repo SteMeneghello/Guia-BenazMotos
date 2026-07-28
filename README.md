@@ -16,6 +16,9 @@ Toda vez que um lead chegava, eu precisava:
 
 Agora basta digitar o nome da cidade e o sistema me entrega a resposta em milissegundos.
 
+## Demonstração
+https://github.com/user-attachments/assets/5a498bcc-173d-4bc3-bf4b-b96b33c82590
+
 ### O que eu implementei:
 * **Performance:** Usei `Promise.all` para buscar as duas rotas ao mesmo tempo.
 * **Memória (Cache):** Implementei `localStorage`, se eu já pesquisei "Bebedouro" hoje, amanhã o resultado aparece instantaneamente sem precisar gastar internet ou processamento.
